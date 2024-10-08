@@ -1,15 +1,16 @@
 # ts-cloudinary-migrate
 
-To install dependencies:
+Migrate cloudinary images from an account to anothern
+OBS: It will use 1 transformation for each image uploaded
 
-```bash
-bun install
-```
+## Download
 
-To run:
+set `.env.download` content like `.env.download.example` example
 
-```bash
-bun run index.ts
-```
+run `npm run download`
 
-This project was created using `bun init` in bun v1.1.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## Upload
+
+set `.env.upload` content like `.env.upload.example` example
+
+run `npm run upload`
